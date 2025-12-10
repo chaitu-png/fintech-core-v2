@@ -1,0 +1,289 @@
+{
+    "project": "fintech-core-v2",
+    "commit_history": [
+        {
+            "hash": "4e3f9394",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-11T01:37:03.827155",
+            "message": "feat: initial commit for fintech-core-v2",
+            "risk_score": "low"
+        },
+        {
+            "hash": "38ac7c34",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-16T01:37:03.827155",
+            "message": "refactor: improve internal data structures",
+            "risk_score": "low"
+        },
+        {
+            "hash": "1d1b79e5",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-17T01:37:03.827155",
+            "message": "feat: implement core fintech-core-v2 module",
+            "risk_score": "low"
+        },
+        {
+            "hash": "a07627fc",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-21T01:37:03.827155",
+            "message": "docs: update architecture diagram",
+            "risk_score": "low"
+        },
+        {
+            "hash": "6d750013",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-23T01:37:03.827155",
+            "message": "test: add unit tests for base logic",
+            "risk_score": "low"
+        },
+        {
+            "hash": "eccbad1b",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-24T01:37:03.827155",
+            "message": "test: add unit tests for base logic",
+            "risk_score": "low"
+        },
+        {
+            "hash": "82702535",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-27T01:37:03.827155",
+            "message": "refactor: improve internal data structures",
+            "risk_score": "low"
+        },
+        {
+            "hash": "41e6c990",
+            "author": "dev-bot@peis.ai",
+            "date": "2025-12-30T01:37:03.827155",
+            "message": "docs: update architecture diagram",
+            "risk_score": "low"
+        },
+        {
+            "hash": "13b7e5ec",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-02T01:37:03.827155",
+            "message": "test: add unit tests for base logic",
+            "risk_score": "low"
+        },
+        {
+            "hash": "1cf03e48",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-06T01:37:03.827155",
+            "message": "feat: implement core fintech-core-v2 module",
+            "risk_score": "low"
+        },
+        {
+            "hash": "c8606139",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-09T01:37:03.827155",
+            "message": "refactor: improve internal data structures",
+            "risk_score": "low"
+        },
+        {
+            "hash": "c659eb57",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-11T01:37:03.827155",
+            "message": "docs: update architecture diagram",
+            "risk_score": "low"
+        },
+        {
+            "hash": "5e61400a",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-13T01:37:03.827155",
+            "message": "feat: implement core fintech-core-v2 module",
+            "risk_score": "low"
+        },
+        {
+            "hash": "c6f5741b",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-15T01:37:03.827155",
+            "message": "test: add unit tests for base logic",
+            "risk_score": "low"
+        },
+        {
+            "hash": "c5a1876d",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-18T01:37:03.827155",
+            "message": "feat: implement core fintech-core-v2 module",
+            "risk_score": "low"
+        },
+        {
+            "hash": "9b53917e",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-22T01:37:03.827155",
+            "message": "refactor: improve internal data structures",
+            "risk_score": "low"
+        },
+        {
+            "hash": "95602e12",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-27T01:37:03.827155",
+            "message": "feat: add high-performance batch processing",
+            "risk_score": "high"
+        },
+        {
+            "hash": "74e00436",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-28T01:37:03.827155",
+            "message": "feat: auxiliary feature 0 for fintech-core-v2",
+            "risk_score": "medium"
+        },
+        {
+            "hash": "eb39fcff",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-30T01:37:03.827155",
+            "message": "feat: auxiliary feature 1 for fintech-core-v2",
+            "risk_score": "medium"
+        },
+        {
+            "hash": "970679da",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-01-31T01:37:03.827155",
+            "message": "fix: resolve memory leak",
+            "risk_score": "low"
+        },
+        {
+            "hash": "8c95aaf3",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-02-03T01:37:03.827155",
+            "message": "feat: auxiliary feature 3 for fintech-core-v2",
+            "risk_score": "medium"
+        },
+        {
+            "hash": "f4c87866",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-02-06T01:37:03.827155",
+            "message": "fix: resolve race condition",
+            "risk_score": "low"
+        },
+        {
+            "hash": "3578787e",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-02-09T01:37:03.827155",
+            "message": "fix: resolve rounding error",
+            "risk_score": "low"
+        },
+        {
+            "hash": "89169605",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-02-11T01:37:03.827155",
+            "message": "feat: auxiliary feature 6 for fintech-core-v2",
+            "risk_score": "medium"
+        },
+        {
+            "hash": "d5cf3fbe",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-02-14T01:37:03.827155",
+            "message": "fix: resolve rounding error",
+            "risk_score": "low"
+        },
+        {
+            "hash": "87f1d367",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-02-17T01:37:03.827155",
+            "message": "feat: auxiliary feature 8 for fintech-core-v2",
+            "risk_score": "medium"
+        },
+        {
+            "hash": "479848f8",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-02-19T01:37:03.827155",
+            "message": "fix: resolve race condition",
+            "risk_score": "low"
+        },
+        {
+            "hash": "d9038fe6",
+            "author": "dev-bot@peis.ai",
+            "date": "2026-04-05T01:37:03.827155",
+            "message": "refactor: optimize database query layer",
+            "risk_score": "critical"
+        }
+    ],
+    "deployments": [
+        {
+            "id": "DEP-9014",
+            "timestamp": "2025-12-16T01:37:03.827155",
+            "status": "success",
+            "environment": "production"
+        },
+        {
+            "id": "DEP-5752",
+            "timestamp": "2025-12-23T01:37:03.827155",
+            "status": "success",
+            "environment": "production"
+        },
+        {
+            "id": "DEP-6123",
+            "timestamp": "2025-12-30T01:37:03.827155",
+            "status": "success",
+            "environment": "production"
+        },
+        {
+            "id": "DEP-7391",
+            "timestamp": "2026-01-09T01:37:03.827155",
+            "status": "success",
+            "environment": "production"
+        },
+        {
+            "id": "DEP-7234",
+            "timestamp": "2026-01-15T01:37:03.827155",
+            "status": "success",
+            "environment": "production"
+        },
+        {
+            "id": "DEP-9385",
+            "timestamp": "2026-01-27T01:37:03.827155",
+            "status": "failed",
+            "environment": "production"
+        },
+        {
+            "id": "DEP-7070",
+            "timestamp": "2026-04-05T01:37:03.827155",
+            "status": "success",
+            "environment": "production"
+        }
+    ],
+    "test_reports": [
+        {
+            "timestamp": "2025-12-16T01:37:03.827155",
+            "coverage_percent": 44.08,
+            "passed": 143,
+            "failed": 1
+        },
+        {
+            "timestamp": "2025-12-23T01:37:03.827155",
+            "coverage_percent": 52.4,
+            "passed": 111,
+            "failed": 2
+        },
+        {
+            "timestamp": "2025-12-30T01:37:03.827155",
+            "coverage_percent": 51.02,
+            "passed": 138,
+            "failed": 5
+        },
+        {
+            "timestamp": "2026-01-09T01:37:03.827155",
+            "coverage_percent": 52.05,
+            "passed": 106,
+            "failed": 3
+        },
+        {
+            "timestamp": "2026-01-15T01:37:03.827155",
+            "coverage_percent": 41.33,
+            "passed": 174,
+            "failed": 1
+        },
+        {
+            "timestamp": "2026-01-27T01:37:03.827155",
+            "coverage_percent": 40.51,
+            "passed": 146,
+            "failed": 2
+        },
+        {
+            "timestamp": "2026-04-05T01:37:03.827155",
+            "coverage_percent": 60.09,
+            "passed": 150,
+            "failed": 4
+        }
+    ]
+}
